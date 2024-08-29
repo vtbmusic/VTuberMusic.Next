@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTuberMusic.Next", "VTuberMusic.Next\VTuberMusic.Next.csproj", "{0FED7285-54D0-42FE-B43C-6FE6E052B16B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Item", "0.Solution Item", "{76390873-485F-4FAE-B397-8EEA387FF6A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Shared", "2.Shared", "{A152D569-3CD3-47A6-9FD8-EEFD5C66BEAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Entity", "3.Entity", "{68F2D130-55E6-4798-9CAE-DD4F4572CB94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Tool", "4.Tool", "{C20919B0-9C4B-4CA9-A0FD-BB5A42942EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Service", "5.Service", "{7F97832C-023D-4311-8DD4-5E7E8EC3E0F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.WebApi", "6.WebApi", "{E5FD2627-413C-44E1-A9E8-D98C07BC6B85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Aspire", "1.Aspire", "{6BAF007B-8198-4B92-9A2A-375C5E039E46}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0FED7285-54D0-42FE-B43C-6FE6E052B16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FED7285-54D0-42FE-B43C-6FE6E052B16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FED7285-54D0-42FE-B43C-6FE6E052B16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FED7285-54D0-42FE-B43C-6FE6E052B16B}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

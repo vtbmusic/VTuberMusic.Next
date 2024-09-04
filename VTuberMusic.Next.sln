@@ -17,9 +17,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.WebApi", "6.WebApi", "{E5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Aspire", "1.Aspire", "{6BAF007B-8198-4B92-9A2A-375C5E039E46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTuberMusic.Next.Core", "src\Shared\VTuberMusic.Next.Core\VTuberMusic.Next.Core.csproj", "{E62BFD89-8524-40D7-9CD6-2D5D696030C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTuberMusic.Next.Entity", "src\Entity\VTuberMusic.Next.Entity\VTuberMusic.Next.Entity.csproj", "{AFF91F49-2EBB-44B0-8C30-C0685F35C736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTuberMusic.Migration.Tool", "src\Tool\VTuberMusic.Migration.Tool\VTuberMusic.Migration.Tool.csproj", "{0927312D-9450-4ECD-85CC-22053571FBFF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E62BFD89-8524-40D7-9CD6-2D5D696030C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62BFD89-8524-40D7-9CD6-2D5D696030C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62BFD89-8524-40D7-9CD6-2D5D696030C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62BFD89-8524-40D7-9CD6-2D5D696030C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF91F49-2EBB-44B0-8C30-C0685F35C736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF91F49-2EBB-44B0-8C30-C0685F35C736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF91F49-2EBB-44B0-8C30-C0685F35C736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF91F49-2EBB-44B0-8C30-C0685F35C736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0927312D-9450-4ECD-85CC-22053571FBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0927312D-9450-4ECD-85CC-22053571FBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0927312D-9450-4ECD-85CC-22053571FBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0927312D-9450-4ECD-85CC-22053571FBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E62BFD89-8524-40D7-9CD6-2D5D696030C1} = {A152D569-3CD3-47A6-9FD8-EEFD5C66BEAC}
+		{AFF91F49-2EBB-44B0-8C30-C0685F35C736} = {68F2D130-55E6-4798-9CAE-DD4F4572CB94}
+		{0927312D-9450-4ECD-85CC-22053571FBFF} = {C20919B0-9C4B-4CA9-A0FD-BB5A42942EB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DEE8C6D-4A6F-481B-8B00-01CF12ECF9A8}
